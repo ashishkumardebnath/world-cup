@@ -22,6 +22,7 @@ header{
    color: aliceblue;
    
 }
+
 .description{
     margin-top: 60px;
 }
@@ -52,6 +53,7 @@ a{
      width: 170px;
     padding: 20px;
     background-color:brown;
+    align-items: center;
 }
 #color{
     background-color: gold;
@@ -85,3 +87,29 @@ footer{
 span{
     margin-left: 20PX;
 }
+.strongs{
+    margin-left: 30PX;
+}
+
+/* @media screen */
+
+@media only screen and (max-width:688px) {
+    .box{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .container{
+        display: inline;
+    }
+    .tool{
+        background-color: aliceblue;
+    }
+    .container-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer-element{
+        display:inline;
+    }
+}
+
